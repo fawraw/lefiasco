@@ -20,9 +20,9 @@ a {
 
 .header {
     background: 
-    linear-gradient(180deg, rgba(0, 0, 0, 0.92), rgba(54, 54, 54, 0.5) 39.24%, rgba(28, 28,28, 0.4))
-    url(img/eggs.jpg) center center / cover no-repeat;
-    color: white;
+     linear-gradient(180deg, rgba(0, 0, 0, 0.92), rgba(54, 54, 54, 0.5) 39.24%, rgba(28, 28, 28, 0.4)), 
++    url(/img/eggs.jpg) center center / cover no-repeat;
++    color: #FFF;
 }
 
 .topbar {
@@ -53,17 +53,17 @@ a {
 
 .baseline-welcome {
     font-family: 'Pinyon Script', serif;
-    color: #c89446;
-    font-size: 2.2rem;
+    color: #C89446;
     display: block;
+    font-size: 2.2rem;
 }
 
 .baseline-name {
     display: block;
     font-size: 2.5rem;
-    padding-bottom: 10px;
     font-weight: 700;
     letter-spacing: 5px;
+    padding-bottom: 10px;
     text-transform: uppercase;
 }
 
@@ -84,7 +84,7 @@ a {
 
 .menu-button:hover {
     background: #C89446;
-    color: white;
+    color: #fff;
 }
 
 @media only screen and (min-width: 600px) {
@@ -92,7 +92,7 @@ a {
         font-size: 16px;
     }
     .logo {
-        padding-bottom: 0;
+        margin-bottom: 0;
     }
     .topbar {        
         display: flex;
@@ -100,10 +100,6 @@ a {
         justify-content: space-between;
         max-width: 1150px;
         margin: 0 auto;
-    }
-    .menu-button {
-        border: solid 1px #C89446;
-        padding: 7px 10px;
     }
     .baseline {
         padding: 125px 0 230px;
@@ -113,7 +109,7 @@ a {
         font-size: 1.5rem;
     }
     .baseline-name {
-        font-size: 4.375px;
+        font-size: 4.375rem;
         letter-spacing: 12px;
         padding-top: 8px;
         padding-bottom: 18px;
